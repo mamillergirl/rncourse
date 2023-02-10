@@ -9,7 +9,7 @@ This app would be used to show new furniture and they can like it and dislike it
 
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/juFoFCA9NgY)
 
 # Development Environment
 ## Editors and tools

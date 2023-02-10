@@ -39,11 +39,9 @@ function ViewImageScreen({navigation}) {
   return (
       <View >
            
-          {/* <View style={styles.closeIcon}><Button title="Hate"/></View>
-          <View style={styles.likeIcon}><Button title="Love" onPress={() => Alert.alert('Simple Button pressed')}/></View> */}
-          <Pressable  style={styles.button} onPress={() =>  Alert.alert('Simple Button pressed')}>
-              <Text style={styles.topText}>Like</Text>
-           </Pressable>
+          <View style={styles.closeIcon}><Button title="Hate"/></View>
+          <View style={styles.likeIcon}><Button title="Love" onPress={() => console.log('button pressed')}/></View>
+          
           <Image resizeMode="contain"
           style={styles.image}source={require("./app/assets/vase.png")}/>
          
